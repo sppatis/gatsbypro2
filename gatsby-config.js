@@ -3,6 +3,7 @@ module.exports = {
     title: `Level Up Blog`,
     description: `An example of a Gatsby developed Blog system, following the LEvel Up Tuts Level 2 Gatsby`,
     author: `@sppatis`,
+    siteUrl: 'https://optimistic-wright-58b2fe.netlify.app'
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -24,6 +25,8 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -36,7 +39,6 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-netlify`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
